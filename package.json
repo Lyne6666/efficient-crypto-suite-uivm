@@ -1,0 +1,22 @@
+// package.json
+{
+    "name": "efficient-crypto-suite-uivm",
+    "version": "1.0.0",
+    "description": "A efficient-crypto-suite-uivm utility",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "node src/main.js",
+        "test": "mocha test/*.js",
+        "lint": "eslint src test"
+    },
+    "keywords": [],
+    "author": "Lyne6666",
+    "license": "MIT",
+    "dependencies": {
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "mocha": "^10.0.0",
+        "eslint": "^8.0.0"
+    }
+}
